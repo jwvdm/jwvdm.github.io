@@ -1,0 +1,183 @@
+@article{biza2020action,
+  title = {Action Priors for Large Action Spaces in Robotics},
+  author = {Biza, Ondrej and {van de Meent}, Jan-Willem and Wong, Lawson and Platt, Robert},
+  year = {2021},
+  journal = {Accepted for Publication at AAMAS},
+}
+
+@article{sennesh2020neural,
+  title = {Neural {{Topographic Factor Analysis}} for {{fMRI Data}}},
+  author = {Sennesh*, Eli and Khan*, Zulqarnain and Wang, Yiyu and Hutchinson, J. Benjamin and Satpute, Ajay and Dy, Jennifer and {van de Meent}, Jan-Willem},
+  year = {2020},
+  volume = {33},
+  journal = {Advances in Neural Information Processing Systems},
+  language = {en}
+}
+@incollection{wu2020amortized,
+ abstract = {Amortized variational methods have proven difficult to scale to structured problems, such as inferring positions of multiple objects from video images. We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frame structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics. Experiments show that APG samplers can be used to train highly-structured deep generative models in an unsupervised manner, and achieve substantial improvements in inference accuracy relative to standard autoencoding variational methods.},
+ author = {Wu, Hao and Zimmermann, Heiko and Sennesh, Eli and Le, Tuan Anh and van de Meent, Jan-Willem},
+ booktitle = {Proceedings of the International Conference on Machine Learning},
+ pages = {10205--10215},
+ title = {Amortized Population Gibbs Samplers with Neural Sufficient Statistics},
+ year = {2020}
+}
+
+@article{mcinerney2020query-focused,
+  title = {Query-{{Focused EHR Summarization}} to {{Aid Imaging Diagnosis}}},
+  author = {McInerney, Denis Jered and Dabiri, Borna and Touret, Anne-Sophie and Young, Geoffrey and {van de Meent}, Jan-Willem and Wallace, Byron C.},
+  year = {2020},
+  month = apr,
+  abstract = {Electronic Health Records (EHRs) provide vital contextual information to radiologists and other physicians when making a diagnosis. Unfortunately, because a given patient's record may contain hundreds of notes and reports, identifying relevant information within these in the short time typically allotted to a case is very difficult. We propose and evaluate models that extract relevant text snippets from patient records to provide a rough case summary intended to aid physicians considering one or more diagnoses. This is hard because direct supervision (i.e., physician annotations of snippets relevant to specific diagnoses in medical records) is prohibitively expensive to collect at scale. We propose a distantly supervised strategy in which we use groups of International Classification of Diseases (ICD) codes observed in 'future' records as noisy proxies for 'downstream' diagnoses. Using this we train a transformer-based neural model to perform extractive summarization conditioned on potential diagnoses. This model defines an attention mechanism that is conditioned on potential diagnoses (queries) provided by the diagnosing physician. We train (via distant supervision) and evaluate variants of this model on EHR data from a local hospital and MIMIC-III (the latter to facilitate reproducibility). Evaluations performed by radiologists demonstrate that these distantly supervised models yield better extractive summaries than do unsupervised approaches. Such models may aid diagnosis by identifying sentences in past patient reports that are clinically relevant to a potential diagnoses.},
+  archivePrefix = {arXiv},
+  eprint = {2004.04645},
+  eprinttype = {arxiv},
+  journal = {Machine Learning for Healthcare},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{esmaeili2018structured,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1804.02086},
+  primaryClass = {cs, stat},
+  title = {Structured {{Disentangled Representations}}},
+  abstract = {Deep latent-variable models learn representations of high-dimensional data in an unsupervised manner. A number of recent efforts have focused on learning representations that disentangle statistically independent axes of variation by introducing modifications to the standard objective function. These approaches generally assume a simple diagonal Gaussian prior and as a result are not able to reliably disentangle discrete factors of variation. We propose a two-level hierarchical objective to control relative degree of statistical independence between blocks of variables and individual variables within blocks. We derive this objective as a generalization of the evidence lower bound, which allows us to explicitly represent the trade-offs between mutual information between data and representation, KL divergence between representation and prior, and coverage of the support of the empirical data distribution. Experiments on a variety of datasets demonstrate that our objective can not only disentangle discrete variables, but that doing so also improves disentanglement of other variables and, importantly, generalization even to unseen combinations of factors.},
+  journal = {Artificial Intelligence and Statistics},
+  author = {Esmaeili, Babak and Wu, Hao and Jain, Sarthak and Bozkurt, Alican and Siddharth, N. and Paige, Brooks and Brooks, Dana H. and Dy, Jennifer and {van de Meent}, Jan-Willem},
+  month = apr,
+  year = {2019},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+}
+
+@article{esmaeili2018structuredb,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1812.05035},
+  primaryClass = {cs},
+  title = {Structured {{Neural Topic Models}} for {{Reviews}}},
+  abstract = {We present Variational Aspect-based Latent Topic Allocation (VALTA), a family of autoencoding topic models that learn aspect-based representations of reviews. VALTA defines a user-item encoder that maps bag-of-words vectors for combined reviews associated with each paired user and item onto structured embeddings, which in turn define per-aspect topic weights. We model individual reviews in a structured manner by inferring an aspect assignment for each sentence in a given review, where the per-aspect topic weights obtained by the user-item encoder serve to define a mixture over topics, conditioned on the aspect. The result is an autoencoding neural topic model for reviews, which can be trained in a fully unsupervised manner to learn topics that are structured into aspects. Experimental evaluation on large number of datasets demonstrates that aspects are interpretable, yield higher coherence scores than non-structured autoencoding topic model variants, and can be utilized to perform aspect-based comparison and genre discovery.},
+  journal = {Artificial Intelligence and Statistics},
+  author = {Esmaeili, Babak and Huang, Hongyi and Wallace, Byron C. and {van de Meent}, Jan-Willem},
+  month = dec,
+  year = {2019},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+}
+
+@inproceedings{jain_emnlp_2018,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1804.07212},
+  title = {Learning {{Disentangled Representations}} of {{Texts}} with {{Application}} to {{Biomedical Abstracts}}},
+  abstract = {We propose a method for learning disentangled representations of texts that code for distinct and complementary aspects, with the aim of affording efficient model transfer and interpretability. To induce disentangled embeddings, we propose an adversarial objective based on the (dis)similarity between triplets of documents with respect to specific aspects. Our motivating application is embedding biomedical abstracts describing clinical trials in a manner that disentangles the populations, interventions, and outcomes in a given trial. We show that our method learns representations that encode these clinically salient aspects, and that these can be effectively used to perform aspect-specific retrieval. We demonstrate that the approach generalizes beyond our motivating application in experiments on two multi-aspect review corpora.},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  author = {Jain, Sarthak and Banner, Edward and {van de Meent}, Jan-Willem and Marshall, Iain J. and Wallace, Byron C.},
+  year = {2018},
+}
+
+@inproceedings{siddharth_nips_2017,
+    title = {Learning Disentangled Representations with Semi-Supervised Deep Generative Models},
+    abstract = {Variational autoencoders (VAEs) learn representations of data by jointly training a probabilistic encoder and decoder network. Typically these models encode all features of the data into a single variable. Here we are interested in learning disentangled representations that encode distinct aspects of the data into separate variables. We propose to learn such representations using model architectures that generalise from standard VAEs, employing a general graphical model structure in the encoder and decoder. This allows us to train partially-specified models that make relatively strong assumptions about a subset of interpretable variables and rely on the flexibility of neural networks to learn representations for the remaining variables. We further define a general objective for semi-supervised learning in this model class, which can be approximated using an importance sampling procedure. We evaluate our framework's ability to learn disentangled representations, both by qualitative exploration of its generative capacity, and quantitative evaluation of its discriminative ability on a variety of models and datasets.},
+    author = {Siddharth, N. and Paige, Brooks and van de Meent, Jan-Willem and Desmaison, Alban and Goodman, Noah D. and Kohli, Pushmeet and Wood, 
+Frank and Torr, Philip},
+    booktitle = {Advances in Neural Information Processing Systems 30},
+    editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+    pages = {5927--5937},
+    year = {2017},
+}
+
+@inproceedings{tolpin_ifl_2016,
+ author = {Tolpin, David and van de Meent, Jan-Willem and Yang, Hongseok and Wood, Frank},
+ abstract = {Anglican is a probabilistic programming system designed to interoperate with Clojure and other JVM languages. We introduce the programming language Anglican, outline our design choices, and discuss in depth the implementation of the Anglican language and runtime, including macro-based compilation, extended CPS-based evaluation model, and functional representations for probabilistic paradigms, such as a distribution, a random process, and an inference algorithm. We show that a probabilistic functional language can be implemented efficiently and integrated tightly with a conventional functional language with only moderate computational overhead. We also demonstrate how advanced probabilistic modelling concepts are mapped naturally to the functional foundation.},
+ title = {Design and Implementation of Probabilistic Programming Language Anglican},
+ booktitle = {Proceedings of the 28th Symposium on the Implementation and Application of Functional Programming Languages},
+ series = {IFL 2016},
+ year = {2016},
+ isbn = {978-1-4503-4767-9},
+ location = {Leuven, Belgium},
+ pages = {6:1--6:12},
+ articleno = {6},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/3064899.3064910},
+ doi = {10.1145/3064899.3064910},
+ acmid = {3064910},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{rainforth_nips_2016,
+  title = {Bayesian {O}ptimization for {P}robabilistic {P}rograms},
+  author = {Rainforth, Tom and Le, Tuan Anh and van de Meent, Jan-Willem and Osborne, Michael A and Wood, Frank},
+  booktitle = {Advances in Neural Information Processing Systems},
+  pages = {280--288},
+  year = {2016},
+  annote = {https://github.com/probprog/bopp}
+}
+
+@inproceedings{rainforth_icml_2016,
+abstract = {We introduce interacting particle Markov chain Monte Carlo (iPMCMC), a PMCMC method that introduces a coupling between multiple standard and conditional sequential Monte Carlo samplers. Like related methods, iPMCMC is a Markov chain Monte Carlo sampler on an extended space. We present empirical results that show significant improvements in mixing rates relative to both non- interacting PMCMC samplers and a single PMCMC sampler with an equivalent total computational budget. An additional advantage of the iPMCMC method is that it is suitable for distributed and multi-core architectures.},
+booktitle = {Proceedings of The 33rd International Conference on Machine Learning,},
+pages = {2616–2625},
+title = {{Interacting Particle Markov Chain Monte Carlo}},
+author = {Rainforth, Tom and Naesseth, Christian A. and Lindsten,  Fredrik and Paige, Brooks and van de Meent, Jan-Willem and Doucet, Arnaud and Wood, Frank},
+year = {2016}}
+
+@article{vandemeent_aistats_2016,
+abstract = {In this work, we explore how probabilistic programs can be used to represent policies in sequential decision problems. In this formulation, a probabilistic program is a black-box stochastic simulator for both the problem domain and the agent. We relate classic policy gradient techniques to recently introduced black-box variational methods which generalize to probabilistic program inference. We present case studies in the Canadian traveler problem, Rock Sample, and a benchmark for optimal diagnosis inspired by Guess Who. Each study illustrates how programs can efficiently represent policies using moderate numbers of parameters.},
+journal = {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+author = {van de Meent, Jan-Willem and Paige, Brooks and Tolpin, David and Wood, Frank},
+pages = {1195–1204},
+title = {{Black-Box Policy Search with Probabilistic Programs}},
+year = {2016}
+}
+
+@incollection{tolpin_ecml_2015,
+  year={2015},
+  isbn={978-3-319-23524-0},
+  booktitle={Machine Learning and Knowledge Discovery in Databases},
+  volume={9285},
+  series={Lecture Notes in Computer Science},
+  editor={Appice, Annalisa and Rodrigues, Pedro Pereira and Santos Costa, Vítor and Gama, João and Jorge, Alípio and Soares, Carlos},
+  doi={10.1007/978-3-319-23525-7_19},
+  title={Output-Sensitive Adaptive Metropolis-Hastings for Probabilistic Programs},
+  url={http://dx.doi.org/10.1007/978-3-319-23525-7_19},
+  publisher={Springer International Publishing},
+  keywords={Probabilistic programming; Adaptive MCMC},
+  author={Tolpin, David and van de Meent, Jan-Willem and Paige, Brooks and Wood, Frank},
+  pages={311-326},
+  language={English}
+}
+
+@inproceedings{vandemeent_aistats_2015,
+abstract = {Particle Markov chain Monte Carlo techniques rank among current state-of-the-art methods for probabilistic program inference. A drawback of these techniques is that they rely on importance resampling, which results in degenerate particle trajectories and a low effective sample size for variables sampled early in a program. We here develop a formalism to adapt ancestor resampling, a technique that mitigates particle degeneracy, to the probabilistic programming setting. We present empirical results that demonstrate nontrivial performance gains.},
+archivePrefix = {arXiv},
+arxivId = {1501.06769},
+author = {van de Meent, Jan-Willem and Yang, Hongseok and Mansinghka, Vikash and Wood, Frank},
+booktitle = {Artificial Intelligence and Statistics},
+eprint = {1501.06769},
+title = {{Particle Gibbs with Ancestor Sampling for Probabilistic Programs}},
+year = {2015}
+}
+
+@inproceedings{wood_aistats_2014,
+author = {Wood, Frank and van de Meent, Jan-Willem and Mansinghka, Vikash},
+booktitle = {Artificial Intelligence and Statistics},
+pages = {1024--1032},
+title = {{A new approach to probabilistic programming inference}},
+year = {2014}
+}
+
+@article{vandemeent_icml_2013,
+abstract = {We address the problem of analyzing sets of noisy time-varying signals that all report on the same process but confound straightforward analyses due to complex inter-signal heterogeneities and measurement artifacts. In particular we consider single-molecule experiments which indirectly measure the distinct steps in a biomolecular process via observations of noisy time-dependent signals such as a fluorescence intensity or bead position. Straightforward hidden Markov model (HMM) analyses attempt to characterize such processes in terms of a set of conformational states, the transitions that can occur between these states, and the associated rates at which those transitions occur; but require ad-hoc post-processing steps to combine multiple signals. Here we develop a hierarchically coupled HMM that allows experimentalists to deal with inter-signal variability in a principled and automatic way. Our approach is a generalized expectation maximization hyperparameter point estimation procedure with variational Bayes at the level of individual time series that learns an single interpretable representation of the overall data generating process.},
+archivePrefix = {arXiv},
+arxivId = {1305.3640},
+author = {van de Meent, Jan-Willem and Bronson, Jonathan E and Wood, Frank and Gonzalez, Ruben L. and Wiggins, Chris H.},
+eprint = {1305.3640},
+journal = {Proceedings of the 30th International Conference on Machine Learning},
+month = may,
+number = {2},
+pages = {361--369},
+title = {{Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data}},
+volume = {28},
+year = {2013}
+}

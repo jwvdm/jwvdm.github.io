@@ -1,0 +1,109 @@
+@inproceedings{zimmermann2021nested,
+  title={Nested Variational Inference},
+  author={Heiko Zimmermann and Hao Wu and Babak Esmaeili and Sam Stites and Jan-Willem van de Meent},
+  booktitle={Third Symposium on Advances in Approximate Bayesian Inference},
+  year={2021},
+  url={https://openreview.net/forum?id=tvxL1eqPl9Y}
+}
+
+@inproceedings{biza2021learning,
+title={Learning Discrete State Abstractions With Deep Variational Inference},
+author={Ondrej Biza and Robert Platt and Jan-Willem van de Meent and Lawson L. S. Wong},
+booktitle={Third Symposium on Advances in Approximate Bayesian Inference},
+year={2021},
+url={https://openreview.net/forum?id=oU7dRDX8SNA}
+}
+
+@inproceedings{wu2021conjugate,
+title={Conjugate Energy-Based Models},
+author={Hao Wu and Babak Esmaeili and Michael L Wick and Jean-Baptiste Tristan and Jan-Willem van de Meent},
+booktitle={Third Symposium on Advances in Approximate Bayesian Inference},
+year={2021},
+url={https://openreview.net/forum?id=4k58RmAD02}
+}
+
+@article{smedemark-margulies2020generator,
+  title = {Generator Surgery for Compressed Sensing},
+  author = {Smedemark-Margulies, Niklas and Park, Jung Yeon and Daniels, Max and Yu, Rose and {van de Meent}, Jan-Willem and Hand, Paul},
+  year = {2020},
+  abstract = {Image recovery from compressive measurements requires a prior for the images being reconstructed. Recent work has explored the use of Generative Adversarial Networks (GANs) as low-dimensional priors for such problems. Unfortunately these GAN priors can exhibit a large representation error, even on the training set. It is natural to seek higher-dimensional models by significantly increasing the GAN's latent dimension, but the resulting networks can not easily be trained by existing methods. In this paper, we introduce a process for obtaining GAN-based image priors with low representation error. This process involves training a low-latent-dimensional GAN, performing `surgery' at test time by removing one or more of its initial blocks, and optimizing over the new latent space. The resulting signal representations are higher dimensional and consequently the model has lower representation error than the regular GAN. We show this new prior can yield significantly higher-quality reconstructions for compressed sensing and a number of other inverse problems. This result holds across a variety of architectures and our approach even works for diverse out-of-distribution images. Our experiments indicate that the quality of learned generative priors for inverse problems can be improved by test-time architectural modifications.},
+  journal = {NeurIPS Workshop on Deep Learning and Inverse Problems},
+}
+
+@inproceedings{vandemeent_lafi_2019,
+    author = {Eli Sennesh and Adam \'Scibior and Hao Wu and Jan-Willem {van de Meent}},
+    booktitle = {POPL Workshop on Languages for Inference (LAFI)},
+    title = {{Model and Inference Combinators for Deep Probabilistic Programming}},
+    year = {2019}
+}
+
+@article{seaman2019modeling,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1812.01569},
+  primaryClass = {cs},
+  title = {Modeling {{Theory}} of {{Mind}} for {{Autonomous Agents}} with {{Probabilistic Programs}}},
+  abstract = {As autonomous agents become more ubiquitous, they will eventually have to reason about the mental state of other agents, including those agents' beliefs, desires and goals - so-called theory of mind reasoning. We introduce a collection of increasingly complex theory of mind models of a "chaser" pursuing a "runner", known as the Chaser-Runner model. We show that our implementation is a relatively straightforward theory of mind model that can capture a variety of rich behaviors, which in turn, increase runner detection rates relative to basic (non-theory-of-mind) models. In addition, our paper demonstrates that (1) using a planning-as-inference formulation based on nested importance sampling results in agents simultaneously reasoning about other agents' plans and crafting counter-plans, (2) probabilistic programming is a natural way to describe models in which each uses complex primitives such as path planners to make decisions, and (3) allocating additional computation to perform nested reasoning about agents result in lower-variance estimates of expected utility.},
+  journal = {ICML 2019 Workshop on Imitation, Intention, and Interaction (I3)},
+  author = {Seaman, Iris Rubi and {van de Meent}, Jan-Willem and Wingate, David},
+  month = dec,
+  year = {2018},
+  keywords = {Computer Science - Artificial Intelligence},
+  file = {/Users/janwillem/Zotero/storage/FAKF5T67/Seaman - 2018 - Modeling Theory of Mind for Autonomous Agents with Probabilistic Programs.pdf}
+}
+
+@inproceedings{vandemeent_nipscract_2018,
+    author = {Alican Bozkurt and Babak Esmaeli and Dana H. Brooks and Jennifer Dy and Jan-Willem {van de Meent}},
+    booktitle = {NeurIPS Workshop on Critiquing and Correcting Trends in Machine Learning},
+    title = {{Can VAEs Generate Novel Examples?}},
+    year = {2018}
+}
+
+@inproceedings{vandemeent_nipsbnp_2018,
+    author = {Eli Sennesh and Adam \'Scibior and Hao Wu and Jan-Willem {van de Meent}},
+    booktitle = {NeurIPS BNP Workshop},
+    title = {{Composing Modeling and Inference Operations with Probabilistic Program Combinators}},
+    year = {2018}
+}
+
+
+@article{janz_nipsw_2016,
+  title={Probabilistic structure discovery in time series data},
+  author={Janz, David and Paige, Brooks and Rainforth, Tom and {van de Meent}, Jan-Willem and Wood, Frank},
+  journal={NIPS 2016 workshop on Artificial Intelligence for Data Science},
+  year={2016}
+}
+
+@inproceedings{vandemeent_poplw_2016,
+    author = {Jan-Willem {van de Meent} and Brooks Paige and David Tolpin and Frank Wood},
+    booktitle = {POPL Workshop on Probabilistic Programming Semantics},
+    title = {{An Interface for Black Box Learning in Probabilistic Programs}},
+    year = {2016}
+}
+
+@inproceedings{rainforth_nipsw_2015,
+    author = {Tom Rainforth and Jan-Willem {van de Meent} and Frank Wood},
+    booktitle = {NIPS Workshop on Black Box Learning and Inference},
+    title = {{Bayesian Optimization for Probabilistic Programs (2015), NIPS workshop on Black Box Learning and Inference}},
+    year= {2015}
+}
+
+@inproceedings{tolpin_icapsw_2015,
+  author = {Tolpin, David and Paige, Brooks and {van de Meent}, Jan-Willem and Wood, Frank},
+  abstract = {We introduce a new approach to solving path-finding problems under uncertainty by representing them as probabilistic models and applying domain-independent inference algorithms to the models. This approach separates problem representation from the inference algorithm and provides a framework for efficient learning of path-finding policies. We evaluate the new approach on the Canadian Traveler Problem, which we formulate as a probabilistic model, and show how probabilistic inference allows high performance stochastic policies to be obtained for this problem.}, 
+  booktitle = {Proceedings of the 25th International Conference on Automated Planning and Scheduling, Workshop on Planning and Learning (ICAPS WPAL)},
+  archivePrefix = {arXiv},
+  arxivId = {1502.07314},
+  eprint = {1502.07314},
+  pages = {1502.07314},
+  title = {{Path Finding under Uncertainty through Probabilistic Inference}},
+  year = {2015}
+}
+
+
+@inproceedings{vandemeent_nipsw_2014,
+    author = {{van de Meent}, Jan-Willem and Yang, Hongseok and Wood, Frank},
+    booktitle = {3rd {NIPS} Workshop on Probabilistic Programming},
+    title = {{Particle Gibbs with Ancestor Resampling for Probabilistic Programs}},
+    year = {2014}
+}

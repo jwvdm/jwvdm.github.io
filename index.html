@@ -1,0 +1,52 @@
+---
+title: About
+layout: default
+---
+
+<div id="info" class="row">
+  <div class="col-12 col-sm-6 col-md-8">
+     <div id="bio">
+      {% capture bio %}{% include bio.md %}{% endcapture %}
+      {{ bio | markdownify }}
+     </div>
+
+    <div id="news">
+      <h1>News</h1>
+      {% capture news %}{% include news.md %}{% endcapture %}
+      {{ news | markdownify }}
+    </div>
+ 
+  </div>
+  <div class="col-12 col-sm-6 col-md-4">
+    <div id="contact" class="card">
+      <div class="card-body"> 
+        <img alt="contact-photo" src="{{site.baseurl}}/assets/images/jwvdm_coffee.jpg">
+        {% capture contact %}{% include contact.md %}{% endcapture %}
+        {{ contact | markdownify }}
+
+        <a href="https://scholar.google.com/citations?user=CX9Lu38AAAAJ&hl=en&oi=ao" alt="Google scholar">
+          <img class="contact-icon" src="{{site.baseurl}}/assets/images/google_scholar.svg"></img></a>
+
+        <a href="https://twitter.com/jwvdm" alt="Twitter">
+          <img class="contact-icon" src="{{site.baseurl}}/assets/images/twitter.svg"></img></a>
+
+        <a href="https://github.com/jwvdm" alt="Github">
+          <img class="contact-icon" src="{{site.baseurl}}/assets/images/github.svg"></img></a>
+        <a href="https://bitbucket.org/jwvdm/" alt="Bitbucket">
+          <img class="contact-icon" src="{{site.baseurl}}/assets/images/bitbucket.svg"></img></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>      
+
+<div id="group">
+  {% include group.html %}
+</div>
+
+<div id="papers">
+  {% include papers.html %}
+</div>
+
+</div>
+
