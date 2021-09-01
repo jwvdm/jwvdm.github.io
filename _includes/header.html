@@ -2,11 +2,11 @@
   <div class="row">
   
     <div class="title col-sm-6 col-md-8">
-      Jan-Willem van de Meent
+      JAN-WILLEM VAN DE MEENT
     </div>
   
     <div class="col-sm-6 col-md-4">
-      <ul class="nav nav-pills pull-right">
+      <ul class="nav nav-pills float-right">
         {% for link in site.navigation %}
         {% capture url %}{{site.baseurl}}{{link.url}}{% endcapture %}
         <li {% if page.url == link.url %}class="active"{% endif %}>

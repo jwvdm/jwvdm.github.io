@@ -1,6 +1,5 @@
 name: "Jan-Willem van de Meent"
 url: "https://jwvdm.github.io"
-baseurl: "/"
 permalink: /:year/:month/:day/:title
 timezone: Europe/Amsterdam
 
@@ -9,8 +8,6 @@ navigation:
   url: /
 - text: Talks
   url: /talks/
-- text: Teaching
-  url: /teaching/
 - text: Publications
   url: /publications/
 

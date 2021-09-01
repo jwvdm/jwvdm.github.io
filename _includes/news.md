@@ -1,4 +1,10 @@
-**SEP 2021 ∙** As of 1 September, I will be on leave from Northeastern University. I will be at the University of Amsterdam, where I will join Max Welling and his group at the [AMLAB](https://amlab.science.uva.nl/). I will continue to advise current students while away, but am not recruiting PhD students or postdocs at Northeastern this cycle. Please direct inquiries about PhD advising or postdocs to my UvA e-mail. 
+**SEP 2021 ∙** As of 1 September, I will start at the University of Amsterdam and will be on leave from Northeastern University. I will continue to advise current students, but am not recruiting PhD students or postdocs at Northeastern this cycle. I will participate in PhD recruiting through [ELLIS](https://ellis.eu/news/ellis-phd-program-call-for-applications-deadline-november-15-2021), as will other faculty at AMLab. Please contact me at my UvA address with inquiries.
+
+**JUL 2021 ∙** I am delighted to have received the [NSF CAREER award](https://roseyu.com/) award for my research on deep learning and probabilistic programming!
+
+**JUL 2021 ∙** [Robin Walters](http://mathserver.neu.edu/~robin/) has received his first grant as PI for his work on representation-theoretic foundations of deep learning  under the [NSF the Scale MoDL program](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134178)!
+
+**JUN 2021 ∙** The NSF has [funded](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1901117) joint work on MDP abstractions with [Lawson Wong](https://www.ccs.neu.edu/home/lsw/), [Rob Platt](https://www.ccs.neu.edu/home/rplatt/), and [Robin Walters](http://mathserver.neu.edu/robin/)! 
 
 **MAY 2021 ∙** [Sam](https://www.khoury.northeastern.edu/people/samuel-stites/) and [Heiko's](http://www.ccs.neu.edu/home/hzimmermann/) paper on inference combinators will appear at UAI 2021!
 
@@ -7,17 +13,17 @@
 
 **JAN 2021 ∙** [Alican's](https://alicanb.github.io/) and [Babak's](https://babak0032.github.io/) paper on rate-regularization and generalization in VAEs will appear at AISTATS 2021. 
 
-**JAN 2020 ∙** Our group will be presenting 3 extended abstracts at [AABI](http://approximateinference.org/) this year [[1](https://openreview.net/forum?id=tvxL1eqPl9Y), [2](https://openreview.net/forum?id=oU7dRDX8SNA), [3](https://openreview.net/forum?id=4k58RmAD02)].
+**JAN 2021 ∙** Our group will be presenting 3 extended abstracts at [AABI](http://approximateinference.org/) this year [[1](https://openreview.net/forum?id=tvxL1eqPl9Y), [2](https://openreview.net/forum?id=oU7dRDX8SNA), [3](https://openreview.net/forum?id=4k58RmAD02)].
 
 **DEC 2020 ∙** [Ondrej's](https://sites.google.com/view/obiza) paper on action priors will appear at AAMAS 2021.
 
-**OCT 2020 ∙** I co-chaired the second edition of the International Conference on Probabilistic Programming ([PROBPROG 2020](https://probprog.cc))
+<!-- **OCT 2020 ∙** I co-chaired the second edition of the International Conference on Probabilistic Programming ([PROBPROG 2020](https://probprog.cc)) -->
 
-**SEP 2020 ∙** [Eli's](https://esennesh.github.io/) paper with [Zulqarnain](https://scholar.google.com/citations?user=rYq6RQ4AAAAJ) on inferring participant and stimuli embeddings from neuroimaging data will appear at NeurIPS 2020 [[ArXiv](https://arxiv.org/abs/1906.08901)]
+<!-- **SEP 2020 ∙** [Eli's](https://esennesh.github.io/) paper with [Zulqarnain](https://scholar.google.com/citations?user=rYq6RQ4AAAAJ) on inferring participant and stimuli embeddings from neuroimaging data will appear at NeurIPS 2020 [[ArXiv](https://arxiv.org/abs/1906.08901)] -->
 
-**JUN 2020 ∙** [Jered's](https://www.khoury.northeastern.edu/people/denis-jered-mcinerney/) paper on Query-Focused EHR summarization will appear at MLHC 2020 [[ArXiv](https://arxiv.org/abs/2004.04645)]
+<!-- **JUN 2020 ∙** [Jered's](https://www.khoury.northeastern.edu/people/denis-jered-mcinerney/) paper on Query-Focused EHR summarization will appear at MLHC 2020 [[ArXiv](https://arxiv.org/abs/2004.04645)] -->
 
-**MAY 2020 ∙** [Hao's](https://www.khoury.northeastern.edu/people/hao-wu/) paper on Amortized Population Gibbs Samplers will appear at ICML 2020 [[ArXiv](https://arxiv.org/abs/1911.01382)]
+<!-- **MAY 2020 ∙** [Hao's](https://www.khoury.northeastern.edu/people/hao-wu/) paper on Amortized Population Gibbs Samplers will appear at ICML 2020 [[ArXiv](https://arxiv.org/abs/1911.01382)] -->
 
 <!-- **NOV 2019 ∙** New working paper by [Alican Bozkurt](https://alicanb.github.io) and [Babak Esmaeili](https://www.khoury.northeastern.edu/people/babak-esmaeili/) on evaluating combinatorial generlization in VAEs [[Arxiv](https://arxiv.org/abs/1911.04594)]
  -->
