@@ -3,6 +3,8 @@
 
 @import "email-obfuscator";
 
+$color-red: #bc0031;
+
 *, html {
     font-family: HelveticaNeueW01-45Ligh,"Helvetica Neue",HelveticaNeue,Helvetica,sans-serif;
 }
@@ -16,13 +18,13 @@ body {
 }
 
 a {
-  color: #d41b2c;
+  color: $color-red;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d41b2c;
+  color: $color-red;
   text-decoration: underline;
 }
 
@@ -132,14 +134,14 @@ img.headshot {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: #d41b2c;
+  color: $color-red;
 }
 
 .nav > li.active > a,
 .nav > li.active > a:hover,
 .nav > li.active > a:focus 
 {
-  color: #d41b2c;
+  color: $color-red;
 }
 
 .nav-pills > li + li {
@@ -216,11 +218,11 @@ ol.bibliography .nav-pills > li > a:hover {
 }
 
 span.red {
-  color: #d41b2c;
+  color: $color-red;
 }
 
 .pub > div > a {
-  color: #d41b2c;
+  color: $color-red;
   font-weight: 300;
 }
 
