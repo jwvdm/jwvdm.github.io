@@ -1,6 +1,6 @@
 **SEP 2021 ∙** As of 1 September, I will start at the University of Amsterdam and will be on leave from Northeastern University. I will continue to advise current students, but am not recruiting PhD students or postdocs at Northeastern this cycle. I will participate in PhD recruiting through [ELLIS](https://ellis.eu/news/ellis-phd-program-call-for-applications-deadline-november-15-2021), as will other faculty at AMLab. Please contact me at my UvA address with inquiries.
 
-**JUL 2021 ∙** I am delighted to have received the [NSF CAREER award](https://roseyu.com/) award for my research on deep learning and probabilistic programming!
+**JUL 2021 ∙** I am delighted to have received the [NSF CAREER award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047253) award for my research on deep learning and probabilistic programming!
 
 **JUL 2021 ∙** [Robin Walters](http://mathserver.neu.edu/~robin/) has received his first grant as PI for his work on representation-theoretic foundations of deep learning  under the [NSF the Scale MoDL program](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134178)!
 
