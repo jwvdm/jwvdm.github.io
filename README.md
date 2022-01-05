@@ -11,7 +11,7 @@ For your publication to appear under one of the sections on the "Publications" p
 ## Adding new Working Paper
 
 In order for your paper to appear in the "Working Papers" section on the main page you have to add your paper in `_include/_includes/papers.html`. 
-Each entry `<div class="pub row"> ... </dim>` needs to specify a 
+Each entry `<div class="pub row"> ... </div>` needs to specify a 
 thumbnail image, title, venue, authors, abstract, and a link to the manuscript. 
 Your entry should have the following form:
 
