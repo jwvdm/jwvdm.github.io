@@ -5,7 +5,7 @@ Made using jekyll, bootstrap and jekyll-scholar (for bibtex publication list).
 
 ## Adding new Publication
 
-For your publication to appear under one of the sections on the "Publications" page you simply have to add a bibtex entry to the corresponding bintex file in `./_bibliography`.
+For your publication to appear under one of the sections on the "Publications" page you simply have to add a bibtex entry to the corresponding bibtex file in `./_bibliography`.
 
 
 ## Adding new Working Paper
@@ -46,7 +46,7 @@ Don't forget to upload your thumbnail image to `./assets/images` (please try to 
 Before you submit a pull request please check that everything works as expected, i.e. check that everything is rendering correctly and all of your links are working.
 To inspect your changes you can run a jekyll server locally by running
 ```
-    bundle exec jekyll --serve
+    bundle exec jekyll serve
 ```
 in the repository's root directory. 
 To run the above command you need to have `ruby` and `bundler` installed. Once your have `ruby` you can install bundler via
