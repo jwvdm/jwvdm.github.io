@@ -30,6 +30,18 @@
   journal = {Accepted for Publication at AAMAS},
 }
 
+@inproceedings{wu2021conjugate,
+  title={Conjugate Energy-Based Models},
+  abstract = 	 {In this paper, we propose conjugate energy-based models (CEBMs), a new class of energy-based models that define a joint density over data and latent variables. The joint density of a CEBM decomposes into an intractable distribution over data and a tractable posterior over latent variables. CEBMs have similar use cases as variational autoencoders, in the sense that they learn an unsupervised mapping from data to latent variables. However, these models omit a generator network, which allows them to learn more flexible notions of similarity between data points. Our experiments demonstrate that conjugate EBMs achieve competitive results in terms of image modelling, predictive power of latent space, and out-of-domain detection on a variety of datasets.}
+  author={Wu, Hao and Esmaeili, Babak and Wick, Michael L and Tristan, Jean-Baptiste and van de Meent, Jan-Willem},
+  booktitle={International Conference on Machine Learning},
+  volume = {139},
+  pages = {11228--11239},
+  year = {2021},
+  series = {Proceedings of Machine Learning Research}
+  publisher = {PMLR},
+}
+
 @article{sennesh2020neural,
   title = {Neural {{Topographic Factor Analysis}} for {{fMRI Data}}},
   author = {Sennesh*, Eli and Khan*, Zulqarnain and Wang, Yiyu and Hutchinson, J. Benjamin and Satpute, Ajay and Dy, Jennifer and {van de Meent}, Jan-Willem},
@@ -103,7 +115,7 @@
 @inproceedings{siddharth_nips_2017,
     title = {Learning Disentangled Representations with Semi-Supervised Deep Generative Models},
     abstract = {Variational autoencoders (VAEs) learn representations of data by jointly training a probabilistic encoder and decoder network. Typically these models encode all features of the data into a single variable. Here we are interested in learning disentangled representations that encode distinct aspects of the data into separate variables. We propose to learn such representations using model architectures that generalise from standard VAEs, employing a general graphical model structure in the encoder and decoder. This allows us to train partially-specified models that make relatively strong assumptions about a subset of interpretable variables and rely on the flexibility of neural networks to learn representations for the remaining variables. We further define a general objective for semi-supervised learning in this model class, which can be approximated using an importance sampling procedure. We evaluate our framework's ability to learn disentangled representations, both by qualitative exploration of its generative capacity, and quantitative evaluation of its discriminative ability on a variety of models and datasets.},
-    author = {Siddharth, N. and Paige, Brooks and van de Meent, Jan-Willem and Desmaison, Alban and Goodman, Noah D. and Kohli, Pushmeet and Wood, 
+    author = {Siddharth, N. and Paige, Brooks and van de Meent, Jan-Willem and Desmaison, Alban and Goodman, Noah D. and Kohli, Pushmeet and Wood,
 Frank and Torr, Philip},
     booktitle = {Advances in Neural Information Processing Systems 30},
     editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
@@ -128,7 +140,7 @@ Frank and Torr, Philip},
  acmid = {3064910},
  publisher = {ACM},
  address = {New York, NY, USA},
-} 
+}
 
 @inproceedings{rainforth_nips_2016,
   title = {Bayesian {O}ptimization for {P}robabilistic {P}rograms},
