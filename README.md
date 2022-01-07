@@ -45,10 +45,10 @@ Don't forget to upload your thumbnail image to `./assets/images` (please try to 
 
 Before you submit a pull request please check that everything works as expected, i.e. check that everything is rendering correctly and all of your links are working.
 To inspect your changes you can run a jekyll server locally by running
-```
+```bash
+    bundle install # install all required gems specified in Gemfile
     bundle exec jekyll serve
 ```
 in the repository's root directory. 
-To run the above command you need to have `ruby` and `bundler` installed. Once your have `ruby` you can install bundler via
-```gem install bundler```.
+To run the above commands you need to have `ruby` and `bundler` installed. Once your have `ruby` you can install bundler via `gem install bundler`.
 
