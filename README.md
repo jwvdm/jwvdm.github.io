@@ -3,14 +3,16 @@
 Made using jekyll, bootstrap and jekyll-scholar (for bibtex publication list). 
 
 
-## Adding new Publication
+## Adding Publications
 
-For your publication to appear under one of the sections on the "Publications" page you simply have to add a bibtex entry to the corresponding bibtex file in `./_bibliography`.
+For your publication to appear under one of the sections on the "Publications" page simply add a bibtex entry to the corresponding bibtex file in `./_bibliography`.
+
+Once your paper is accepted, please make sure to move the corresponding bibtex entry from `preprint.bib` to `(conference|journal|workshop).bib` so it appears under the correct section on the "Publications" page.
 
 
-## Adding new Working Paper
+## Adding Working Paper
 
-In order for your paper to appear in the "Working Papers" section on the main page you have to add your paper in `_include/_includes/papers.html`. 
+In order for your paper to appear in the "Working Papers" section on the main page you have to add your paper in `./_include/_includes/papers.html`. 
 Each entry `<div class="pub row"> ... </div>` needs to specify a 
 thumbnail image, title, venue, authors, abstract, and a link to the manuscript. 
 Your entry should have the following form:
