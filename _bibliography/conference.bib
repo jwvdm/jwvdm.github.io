@@ -1,3 +1,18 @@
+@InProceedings{Bateni2022_TransductiveCNAPS,
+    author    = {Bateni, Peyman and Barber, Jarred and van de Meent, Jan-Willem and Wood, Frank},
+    title     = {Enhancing Few-Shot Image Classification With Unlabelled Examples},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2022},
+    pages     = {2796-2805},
+    abbr      = {WACV},
+    abstract  = {We develop a transductive meta-learning method that uses unlabelled instances to improve few-shot image classification performance. Our approach combines a regularized Mahalanobis-distance-based soft k-means clustering procedure with a modified state of the art neural adaptive feature extractor to achieve improved test-time classification accuracy using unlabelled data. We evaluate our method on transductive few-shot learning tasks, in which the goal is to jointly predict labels for query (test) examples given a set of support (training) examples. We achieve state of the art performance on the Meta-Dataset, mini-ImageNet and tiered-ImageNet benchmarks. All trained models and code have been made publicly available},
+    pdf       = {https://openaccess.thecvf.com/content/WACV2022/papers/Bateni_Enhancing_Few-Shot_Image_Classification_With_Unlabelled_Examples_WACV_2022_paper.pdf},
+    urls = {https://doi.org/10.1109/WACV51458.2022.00166},
+    code = {https://github.com/plai-group/simple-cnaps}
+}
+
+
 @inproceedings{stites-zimmerman2021LearningProposals,
   title       = {Learning proposals for probabilistic programs with inference combinators},
   author      = {Stites, Sam and Zimmermann, Heiko and Wu, Hao and Sennesh, Eli and van de Meent, Jan-Willem},
@@ -11,7 +26,6 @@
   month       = {27--30 Jul},
   publisher   = {PMLR},
   pdf         = {https://proceedings.mlr.press/v161/stites21a/stites21a.pdf},
-  url         = {https://proceedings.mlr.press/v161/stites21a.html},
   abstract    = {We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernel and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models. We demonstrate the flexibility of this framework by implementing advanced variational methods based on amortized Gibbs sampling and annealing.}
 }
 
