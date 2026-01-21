@@ -10,4 +10,4 @@ gem "webrick"
 
 gem "jekyll", "~> 4.1"
 
-gem "jekyll-scholar", "~> 6.8"
+gem "jekyll-scholar", "~> 7.0"
