@@ -6,8 +6,9 @@ timezone: Europe/Amsterdam
 navigation:
 - text: Home
   url: /
-- text: Talks
-  url: /talks/
+# Hidden for now
+# - text: Talks
+#   url: /talks/
 - text: Publications
   url: /publications/
 

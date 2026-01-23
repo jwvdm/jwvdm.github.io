@@ -1,3 +1,53 @@
+@article{dijkman2025learning,
+  title = {Learning {{Neural Free-Energy Functionals}} with {{Pair-Correlation Matching}}},
+  author = {Dijkman, Jacobus and Dijkstra, Marjolein and {van Roij}, Ren{\'e} and Welling, Max and {van de Meent}, Jan-Willem and Ensing, Bernd},
+  year = {2025},
+  month = feb,
+  journal = {Physical Review Letters},
+  volume = {134},
+  number = {5},
+  pages = {056103},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.134.056103},
+  abstract = {The intrinsic Helmholtz free-energy functional, the centerpiece of classical density functional theory, is at best only known approximately for 3D systems. Here we introduce a method for learning a neural-network approximation of this functional by exclusively training on a dataset of radial distribution functions, circumventing the need to sample costly heterogeneous density profiles in a wide variety of external potentials. For a supercritical Lennard-Jones system with planar symmetry, we demonstrate that the learned neural free-energy functional accurately predicts inhomogeneous density profiles under various complex external potentials obtained from simulations.},
+  abbr = {PRL},
+  html = {https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.056103},
+  pdf = {https://arxiv.org/pdf/2403.15007}
+}
+
+@article{zimmermann2023variational,
+  title={A Variational Perspective on Generative Flow Networks},
+  abstract = {Generative flow networks (GFNs) are a class of probabilistic models for sequential sampling of composite objects, proportional to a target distribution that is defined in terms of an energy function or a reward. GFNs are typically trained using a flow matching or trajectory balance objective, which matches forward and backward transition models over trajectories. In this work we introduce a variational objective for training GFNs, which is a convex combination of the reverse- and forward KL divergences, and compare it to the trajectory balance objective when sampling from the forward- and backward model, respectively. We show that, in certain settings, variational inference for GFNs is equivalent to minimizing the trajectory balance objective, in the sense that both methods compute the same score-function gradient. This insight suggests that in these settings, control variates, which are commonly used to reduce the variance of score-function gradient estimates, can also be used with the trajectory balance objective. We evaluate our findings and the performance of the proposed variational objective numerically by comparing it to the trajectory balance objective on two synthetic tasks.},
+  author={Heiko Zimmermann and Fredrik Lindsten and Jan-Willem van de Meent and Christian A Naesseth},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2023},
+  month={4},
+  html={https://openreview.net/forum?id=AZ4GobeSLq},
+  pdf={https://openreview.net/pdf?id=AZ4GobeSLq},
+  code={https://github.com/zmheiko/variational-perspective-on-gflownets},
+  abbr={TMLR}
+}
+
+@article{smedemark-margulies2022probabilistic,
+  title = {Probabilistic Program Inference in Network-Based Epidemiological Simulations},
+  author = {{Smedemark-Margulies}, Niklas and Walters, Robin and Zimmermann, Heiko and Laird, Lucas and van der Loo, Christian and Kaushik, Neela and Caceres, Rajmonda and van de Meent, Jan-Willem},
+  year = {2022},
+  month = nov,
+  journal = {PLOS Computational Biology},
+  volume = {18},
+  number = {11},
+  pages = {e1010591},
+  publisher = {{Public Library of Science}},
+  issn = {1553-7358},
+  doi = {10.1371/journal.pcbi.1010591},
+  abstract = {Accurate epidemiological models require parameter estimates that account for mobility patterns and social network structure. We demonstrate the effectiveness of probabilistic programming for parameter inference in these models. We consider an agent-based simulation that represents mobility networks as degree-corrected stochastic block models, whose parameters we estimate from cell phone co-location data. We then use probabilistic program inference methods to approximate the distribution over disease transmission parameters conditioned on reported cases and deaths. Our experiments demonstrate that the resulting models improve the quality of fit in multiple geographies relative to baselines that do not model network topology.},
+  langid = {english},
+  html = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010591},
+  pdf = {https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010591&type=printable},
+  abbr = {PLOS Comp Bio}
+}
+
 @article{khan2022computational,
   title = {A {{Computational Neural Model}} for {{Mapping Degenerate Neural Architectures}}},
   author = {Khan, Zulqarnain and Wang, Yiyu and Sennesh, Eli and Dy, Jennifer and Ostadabbas, Sarah and {van de Meent}, Jan-Willem and Hutchinson, J. Benjamin and Satpute, Ajay B.},

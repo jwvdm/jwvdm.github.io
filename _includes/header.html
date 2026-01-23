@@ -1,20 +1,6 @@
 <div class="col">
-  <div class="row">
-  
-    <div class="title col-sm-6 col-md-8">
-      JAN-WILLEM VAN DE MEENT
-    </div>
-  
-    <div class="col-sm-6 col-md-4">
-      <ul class="nav nav-pills float-right">
-        {% for link in site.navigation %}
-        {% capture url %}{{site.baseurl}}{{link.url}}{% endcapture %}
-        <li {% if page.url == link.url %}class="active"{% endif %}>
-          <a href="{{url}}" title="{{link.title}}">{{link.text}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="title">
+    JAN-WILLEM VAN DE MEENT
   </div>
 </div>
 
