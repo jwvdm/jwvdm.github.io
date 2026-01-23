@@ -24,8 +24,14 @@ layout: default
     </div>
 
     <div id="publications">
-      <h1>Publications</h1>
-      <p>My publications can be found on <a href="https://scholar.google.com/citations?user=aCGsfUAAAAAJ">Google Scholar</a>.</p>
+      <h1>Recent Papers</h1>
+      <p>A full list of publications can be found on <a href="https://scholar.google.com/citations?user=aCGsfUAAAAAJ">Google Scholar</a>.</p>
+      {% bibliography --file recent --template bib_recent %}
+    </div>
+
+    <div id="selected">
+      <h1>Selected Papers</h1>
+      {% bibliography --file selected --template bib_recent %}
     </div>
 
   </div>

@@ -1,0 +1,32 @@
+---
+---
+{% assign brace_open = '{' %}
+{% assign brace_close = '}' %}
+<div class="pub row">
+  {% comment %}Thumbnails hidden for now{% endcomment %}
+  {% if false and entry.img %}
+  <div class="pub-image col-md-3">
+    <img alt="{{ key }}" src="{{ '/assets/images/' | append: entry.img | relative_url }}">
+  </div>
+  <div class="pub-info col-md-9">
+  {% else %}
+  <div class="pub-info col-md-12">
+  {% endif %}
+    <div class="pub-title">
+      {{ entry.title | remove: brace_open | remove: brace_close }}
+    </div>
+    <div class="pub-venue">
+      {% if entry.abbr %}[{{ entry.abbr }}]{% endif %}
+      {% if entry.journal %}{{ entry.journal }}{% endif %}
+      {% if entry.booktitle %}{{ entry.booktitle }}{% endif %}{% if entry.year %}, {{ entry.year }}{% endif %}
+    </div>
+    <div class="pub-auth">
+      {% assign authors = entry.author | remove: brace_open | remove: brace_close | split: ' and ' %}{% for author in authors %}{% assign parts = author | split: ', ' %}{% if parts.size == 2 %}{{ parts[1] }} {{ parts[0] }}{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </div>
+    <div class="pub-links">
+      {% if entry.html %}[<a href="{{ entry.html }}">Link</a>]{% endif %}
+      {% if entry.pdf %}[<a href="{{ entry.pdf }}">PDF</a>]{% endif %}
+      {% if entry.code %}[<a href="{{ entry.code }}">Code</a>]{% endif %}
+    </div>
+  </div>
+</div>

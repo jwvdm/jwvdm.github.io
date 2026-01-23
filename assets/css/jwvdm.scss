@@ -209,9 +209,9 @@ img.contact-icon {
 }
 
 ol.bibliography {
-  padding-left: 1.0em;
+  padding-left: 0;
   max-width: 45em;
-  list-style: disc;
+  list-style: none;
 }
 
 ol.bibliography > li {
@@ -265,8 +265,10 @@ div.pub-image {
 }
 
 .pub-image > img {
-  max-width: 220px;
-  max-height: 200px;
+  width: 100%;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
 }
 
 .pub-title {
