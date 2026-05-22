@@ -37,7 +37,9 @@ gh pr create --base master
 | `_bibliography/JanWillemVanDeMeent.bib` | All of Jan-Willem's publications (primary file to update) |
 | `_bibliography/AMLab.bib` | Lab-wide publications — check for duplicates before adding |
 
-Add every new paper to `JanWillemVanDeMeent.bib`. Also add to `AMLab.bib` if it is a lab paper (students or postdocs in AMLab are co-authors). Check `AMLab.bib` for an existing entry first — students sometimes add papers independently.
+Add every new paper to `JanWillemVanDeMeent.bib`. Also add to `AMLab.bib` if it is a lab paper — i.e. any co-author is an AMLab student, postdoc, or faculty member. In practice, almost all of Jan-Willem's papers qualify. Check `AMLab.bib` for an existing entry first — students sometimes add papers independently under the same or different key.
+
+Core AMLab members whose papers always belong in `AMLab.bib`: Floor Eijkelboom, Maksim Zhdanov, Ana Lucic, Daan Roos, Pedro Curvo, Tin Hadži Veljković, Grigory Bartosh, Heiko Zimmermann, and Max Welling (among others).
 
 ---
 
@@ -56,6 +58,8 @@ grep -o '^@[a-zA-Z]*{[^,]*' ~/Cloud/Git/amlab-amsterdam/AMLab-Amsterdam.github.i
 `recent.bib` on the personal site is a convenient starting point for the newest entries.
 
 Also check by title+year for papers that may have different keys across the two sites.
+
+When promoting a preprint (key rename included), **remove the old key entry** from `JanWillemVanDeMeent.bib` and add the new one. Don't leave stale preprint entries alongside the promoted version.
 
 ---
 

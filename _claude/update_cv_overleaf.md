@@ -11,6 +11,21 @@ For step 3, see `update_amlab_website.md` (if it exists).
 
 ---
 
+## Git workflow
+
+The CV directory is a git repo synced to Overleaf. Always pull before editing and push after:
+
+```bash
+cd ~/Cloud/Overleaf/jwvdm-cv-long
+git pull
+# ... make changes ...
+git add jwvdm-pubs-conference.bib jwvdm-pubs-preprint.bib  # etc.
+git commit -m "Add ..."
+git push
+```
+
+---
+
 ## File locations
 
 | Personal website (`~/Cloud/Git/jwvdm/jwvdm.github.io/_bibliography/`) | CV (`~/Cloud/Overleaf/jwvdm-cv-long/`) |
@@ -71,11 +86,22 @@ The website uses `abbr = {ICML}` for badge display. The CV does not use this fie
 
 If present (local asset path for the website), remove it.
 
-### 4. KEEP `html`, `pdf`, `code` fields
+### 4. ADD `eprint` and `archiveprefix` fields (for arXiv papers)
+
+CV conference and preprint entries include arXiv identifiers:
+
+```bibtex
+eprint = {2602.12233},
+archiveprefix = {arXiv},
+```
+
+These are not present on the personal website entries — add them when syncing.
+
+### 5. KEEP `html`, `pdf`, `code` fields
 
 These are harmless in the CV and useful for reference.
 
-### 5. Author name braces (optional but preferred)
+### 6. Author name braces (optional but preferred)
 
 The CV prefers curly braces around the `van de` particle:
 
@@ -84,7 +110,7 @@ The CV prefers curly braces around the `van de` particle:
 
 Most website entries already use `{van de Meent}`, but check and add braces if missing.
 
-### 6. Preprint `journal` field
+### 7. Preprint `journal` field
 
 The website uses `journal = {arXiv preprint}`. The CV uses this too for newer entries. Older CV entries use `journal = {arXiv:XXXX.XXXXX [cs, stat]}`. Either is fine; keep whichever is already set, or use `journal = {arXiv preprint}` for new entries.
 
@@ -122,13 +148,38 @@ Changes: removed `abbr = {ICLR}`, added `AUTHOR+an = {7=highlight}`.
 
 ---
 
+## Adding a patent
+
+Patents go in `jwvdm-pubs-patent.bib`. Use `@misc` with this format:
+
+```bibtex
+@misc{roos2026bosch,
+  title = {Full verbatim patent title},
+  author = {Inventor One and Inventor Two and {van de Meent}, Jan-Willem and Inventor Four},
+  AUTHOR+an = {3=highlight},
+  year = {2026},
+  month = mar,
+  note = {US Patent Application US20260086544A1},
+  howpublished = {Robert Bosch {GmbH}}
+}
+```
+
+- `note` contains the patent number/application number and type
+- `howpublished` is the assignee
+- Use full verbatim title (patent titles are often very long — keep them as-is)
+
+---
+
 ## Checklist for each new entry
 
+- [ ] `git pull` done before editing
 - [ ] Entry key not already present in the CV bib file
 - [ ] Same paper not already present under a different key (check by title + year)
 - [ ] `AUTHOR+an = {N=highlight}` added with correct N
 - [ ] `abbr` removed
 - [ ] `img` removed (if present)
+- [ ] `eprint` and `archiveprefix` fields added (for arXiv papers)
 - [ ] `{van de Meent}` braces present in the author field
 - [ ] Entry placed in correct file (conference/journal/preprint/workshop/report/patent)
 - [ ] Entry ordering consistent with surrounding entries (newest first within each year group)
+- [ ] `git push` after committing

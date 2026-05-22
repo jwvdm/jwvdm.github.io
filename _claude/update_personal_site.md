@@ -16,6 +16,14 @@ Full order of operations:
 
 `~/Cloud/Git/jwvdm/jwvdm.github.io/` — push directly to `main` (triggers deploy).
 
+### Running the local server
+
+```bash
+/Users/janwillem/.rubies/ruby-3.1.2/bin/bundle exec jekyll serve --port 4000
+```
+
+Then open http://localhost:4000. The system Ruby (`/usr/bin/ruby`) is too old — use the Ruby 3.1.2 bundler above.
+
 ---
 
 ## Bibliography files
@@ -55,6 +63,8 @@ Full order of operations:
 2. Update the entry in **`preprint.bib`** the same way, then **remove it** from `preprint.bib`.
 3. Add the updated entry to the appropriate category file (**`conference.bib`** or **`journal.bib`**).
 4. Push to `main`.
+
+**If the title or first author changed between preprint and accepted versions** (this happens): update the title and author list, and rename the BibTeX key to match the new first author and year (e.g. `park2025liegroups` → `chen2026discovering`). Remove the old key entry and add the new one — don't leave both.
 
 ---
 
