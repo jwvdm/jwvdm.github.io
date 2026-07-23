@@ -1,4 +1,16 @@
-.site/
+# Jekyll build output and caches
+_site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Bundler (local install path is vendor/bundle, set in .bundle/config)
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Claude Code local memory
+.claude-memory-jwvdm/
